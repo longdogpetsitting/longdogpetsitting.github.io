@@ -35,15 +35,17 @@ export const MainHeader: React.FC = () => {
             </div>
           </div>
           <div className="flex items-center gap-x-5 md:gap-x-8">
-            <a
-              href="#"
+            <Link
+              aria-label="Client Portal"
+              href="https://0215longdogpetsitting.petsoftware.net/clientportal"
+              target="_blank"
               className="group inline-flex items-center justify-center rounded-full py-2 px-4 text-sm font-semibold focus:outline-hidden focus-visible:outline-2 focus-visible:outline-offset-2 bg-brand-light-blue text-white hover:text-slate-100 hover:bg-brand-dark-blue"
             >
               <span>
                 Request a time
                 <span className="hidden lg:inline"> today</span>
               </span>
-            </a>
+            </Link>
           </div>
         </nav>
       </div>
