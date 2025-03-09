@@ -1,4 +1,13 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Long Dog Pet Sitting Website
+
+Website built on Next.js for Long Dog Pet Sitting
+
+## Design Notes
+
+Colors:
+
+- #102036
+- #3682ae
 
 ## Getting Started
 
