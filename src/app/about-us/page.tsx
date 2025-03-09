@@ -1,4 +1,4 @@
-export const AboutUs: React.FC = () => {
+const AboutUs: React.FC = () => {
   return <div>About Us</div>;
 };
 

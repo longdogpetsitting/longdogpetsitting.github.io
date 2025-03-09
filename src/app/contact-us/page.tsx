@@ -1,4 +1,4 @@
-export const ContactUs: React.FC = () => {
+const ContactUs: React.FC = () => {
   return <div>Contact Us</div>;
 };
 
