@@ -22,7 +22,7 @@ const Testimonials: React.FC = () => {
               used!!
             </p>
             <p>
-              <strong>Lupita Ospina</strong>
+              <strong>Lupita O.</strong>
             </p>
           </div>
         </div>
@@ -37,7 +37,7 @@ const Testimonials: React.FC = () => {
               needs pet!
             </p>
             <p>
-              <strong>Michelle Crane</strong>
+              <strong>Michelle D.</strong>
             </p>
           </div>
           <div className="flex-none w-48">
@@ -59,7 +59,7 @@ const Testimonials: React.FC = () => {
               cleaner than when she got there. Can&apos;t say enough great things.
             </p>
             <p>
-              <strong>Laura Brown</strong>
+              <strong>Laura B.</strong>
             </p>
           </div>
         </div>
