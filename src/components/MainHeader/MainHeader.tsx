@@ -12,6 +12,13 @@ export const MainHeader: React.FC = () => {
             </Link>
             <div className="hidden md:flex md:gap-x-6">
               <Link
+                aria-label="Services"
+                href="/services"
+                className="inline-block rounded-lg px-2 py-1 text-sm text-slate-700 hover:bg-slate-100 hover:text-slate-900"
+              >
+                Services
+              </Link>
+              <Link
                 aria-label="About Us"
                 href="/about-us"
                 className="inline-block rounded-lg px-2 py-1 text-sm text-slate-700 hover:bg-slate-100 hover:text-slate-900"
@@ -41,10 +48,7 @@ export const MainHeader: React.FC = () => {
               target="_blank"
               className="group inline-flex items-center justify-center rounded-full py-2 px-4 text-sm font-semibold focus:outline-hidden focus-visible:outline-2 focus-visible:outline-offset-2 bg-brand-light-blue text-white hover:text-slate-100 hover:bg-brand-dark-blue"
             >
-              <span>
-                Request a time
-                <span className="hidden lg:inline"> today</span>
-              </span>
+              <span>Book Now!</span>
             </Link>
           </div>
         </nav>

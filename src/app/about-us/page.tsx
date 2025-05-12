@@ -1,5 +1,9 @@
 const AboutUs: React.FC = () => {
-  return <div>About Us</div>;
+  return (
+    <main>
+      <section aria-label="About Us">About Us</section>
+    </main>
+  );
 };
 
 export default AboutUs;
